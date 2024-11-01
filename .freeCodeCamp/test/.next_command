@@ -71,3 +71,8 @@ chmod +x salon.sh
 ./salon.sh
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git remote set-url origin https://github.com/SomeColorMage/salon-appointment-scheduler.git
+git branch -M main
+git push -u origin main
+git add .
